@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Livro</title>
+    <link rel="stylesheet" href="../style/detalhes.css">
+</head>
+
+<body>
+    <div class="detalhes-container">
+        <div class="header">
+
+            <h2 id="detalhes-titulo"></h2>
+        </div>
+
+        <img id="detalhes-img" src="" alt="Capa do Livro">
+        <p id="detalhes-autor"></p>
+        <p id="detalhes-preco"></p>
+        <p id="detalhes-descricao"></p>
+        <p id="detalhes-avaliacao"></p>
+
+        <div class="buttons-container">
+            <a href="index.html"><button id="voltar" class="voltar-btn">Voltar</button></a>
+            <button id="editar-livro" class="editar-btn">Editar</button>
+            <button id="deletar-livro" class="deletar-btn">Deletar</button>
+        </div>
+    </div>
+
+    <!-- Modal de confirmação -->
+    <div id="modal-confirmacao" class="modal">
+        <div class="modal-content">
+            <h2>Confirmar Exclusão</h2>
+            <p>Tem certeza que deseja deletar este livro?</p>
+            <div>
+                <button id="confirmar-exclusao">Sim</button>
+                <button id="cancelar-exclusao">Cancelar</button>
+            </div>
+        </div>
+    </div>
+    <script src="../script/script.js"></script>
+</body>
+
+</html>
